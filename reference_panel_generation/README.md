@@ -1,5 +1,8 @@
 
-Steps to merge\
+# Steps to generate the reference panel
+
+## Combine the SNP vcf and SV vcf files retaining overlapping samples only.
+
 #R script to just pull out high quality SVs\
 >Rscript filtToHQSVs.R\
 _#22 SVs that could not be unambiguously matched to entries in VCF were dropped_\
