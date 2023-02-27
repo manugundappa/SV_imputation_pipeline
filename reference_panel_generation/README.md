@@ -19,4 +19,4 @@ Manually put the header back onto the output\
 \
 Run merge of SNPs and SVs\
 
->qsub submitPrepareRef_2.sh
+>qsub submit_prepare_Ref_panel.sh
