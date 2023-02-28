@@ -16,9 +16,9 @@
 module load igmm/apps/bcftools/1.10.2
 
 #drop SV from files
-zgrep -vP "\tN," no$1.$2.sites.tsv.gz > no$1.$2.noSV.sites.tsv.gz
+zgrep -vP "\tN," no$1.$2.sites.tsv.gz > no$1.$2.noSV.sites.tsv.gz ##tsv output
 
-zgrep -vP "\tN\t" no$1.$2.sites.vcf.gz > no$1.$2.noSV.sites.vcf.gz
+zgrep -vP "\tN\t" no$1.$2.sites.vcf.gz > no$1.$2.noSV.sites.vcf.gz  ###vcf output
 
 bcftools mpileup -f ICSASG_ssa.fa -I -E -a 'FORMAT/DP' -T no$1.$2.noSV.sites.vcf.gz -r $2 $1.$2.1x.bam -Ou | bcftools call -Aim -C alleles -T no$1.$2.noSV.sites.tsv.gz -Oz -o $1.$2.1x.vcf.gz
 
