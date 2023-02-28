@@ -23,7 +23,7 @@ for(i in ids)
   colnames(truth)[1]<-"CHROM"
   
   #would prefer not to hard code the number of header lines to skip but vroom seems to have a problem with specifying comments as ##
-  filesI<-dir(pattern = glob2rx(paste(i, ".*.1x.00.svtyper.vcf", sep="")))
+  filesI<-dir(pattern = glob2rx(paste(i,".*.",cov,".00.svtyper.vcf", sep="")))
   imputed <- vroom(filesI, skip=15) 
   imputed$geno<-str_sub(imputed %>% pull(i), 1,3)
   imputed$posteriors<-sapply(strsplit(imputed %>% pull(i), ":"), function(x) x[3])
