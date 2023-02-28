@@ -6,7 +6,7 @@ cov<-"1x" ##run this across all depths 1x.2x.3x.4x
 maxpost<-"0.60" ##run this for 0.75 and 0.90 
 PP<-"60PP"
 
-##sample IDs of outpanel samples
+##sample IDs of inpanel samples
 ids<-c("Enni_12_0008", "Enni_12_0051", "Enni_12_0085", "Enni_12_0092", "Enni_12_0102", "Enni_12_0032", "Enni_12_0064", "Enni_12_0091", "Enni_12_0094", "Enni_12_0105")
 
 ##create directory to store the outputs
