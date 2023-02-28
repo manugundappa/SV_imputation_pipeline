@@ -3,6 +3,8 @@
 ## Reading
 Preprint available here :
 
+Outputs public on Figshare :
+
 This repository contains all codes for the methods described in the preprint descibed above.
 
 ## Contents
