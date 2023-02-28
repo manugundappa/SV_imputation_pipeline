@@ -7,9 +7,9 @@ This repository contains all codes for the methods described in the preprint des
 
 ## Contents
 
-### 1. [Reference panel generation](https://github.com/manugundappa/SV_imputation_pipeline/blob/main/reference_panel_generation/README.md)
+### 1. [Reference panel generation](https://github.com/manugundappa/SV_imputation_pipeline/blob/main/reference_panel_generation/)
 
-### 2. [In-panel samples imputation pipeline](https://github.com/manugundappa/SV_imputation_pipeline/blob/main/In_panel_samples/Readme.md)
+### 2. [In-panel samples imputation pipeline](https://github.com/manugundappa/SV_imputation_pipeline/blob/main/In_panel_samples/)
 
 ### 3. Out-panel sample SV and SNP calling
 
