@@ -11,7 +11,7 @@ This repository contains all codes for the methods described in the preprint des
 
 ### 2. [In-panel samples imputation pipeline](https://github.com/manugundappa/SV_imputation_pipeline/blob/main/In_panel_samples/)
 
-### 3. Out-panel sample SV and SNP calling
+### 3. [Out-panel sample SV and SNP calling](https://github.com/manugundappa/SV_imputation_pipeline/blob/main/snp_SV_calling/)
 
 ### 4. [Out-panel samples imputation pipeline](https://github.com/manugundappa/SV_imputation_pipeline/blob/main/out_panel_samples/)
 
