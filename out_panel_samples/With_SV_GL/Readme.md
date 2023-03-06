@@ -3,6 +3,9 @@
 
 ## Run the scripts in the following order
 
+#genotype the downsampled vcf files for SV likelihoods using SVTyper
+>bash submitjobs_inpanel_genotype.sh
+
 #drop sample to impute from reference
 >bash submitjob_makeref.sh
 
