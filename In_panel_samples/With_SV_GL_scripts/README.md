@@ -8,7 +8,7 @@
 #get GLs
 >bash submitjobs_computeGL.sh
 
-## merge SVTyper genotype likelihoods with SNP GLs
+#merge SVTyper genotype likelihoods with SNP GLs
 >bash submitjobs_addinSV.sh
 
 #split imputation into chunks
