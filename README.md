@@ -1,9 +1,7 @@
 # **Accurate imputation of structural and single nucleotide variants in the Atlantic salmon genome using low-coverage whole genome sequencing**
 
 ## Reading
-Preprint available here :
-
-Outputs public on Figshare :
+Preprint available here : https://www.biorxiv.org/content/10.1101/2023.03.05.531147v1
 
 This repository contains all codes for the methods described in the preprint descibed above.
 
