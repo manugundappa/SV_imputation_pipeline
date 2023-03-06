@@ -3,6 +3,8 @@
 ## Reading
 Preprint available here : https://www.biorxiv.org/content/10.1101/2023.03.05.531147v1
 
+Reference genome used in the study : [ICSASG_v2](https://salmobase.org/genomes/AtlanticSalmon/ICSASG_v2/overview)
+
 This repository contains all codes for the methods described in the preprint descibed above.
 
 ## Contents
